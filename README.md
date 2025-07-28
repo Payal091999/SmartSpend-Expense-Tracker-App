@@ -57,13 +57,9 @@ cd smartspend-reactapp
 
 2. Install dependencies
 bash
-Copy
-Edit
 npm install
 3. Run the app
 bash
-Copy
-Edit
 npm run dev
 The app runs at http://localhost:5173
 
