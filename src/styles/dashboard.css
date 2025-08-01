@@ -1,0 +1,28 @@
+/* === Dashboard Styles === */
+
+/* Greeting section */
+.dashboard-greeting {
+  @apply text-left text-2xl font-bold text-gray-800;
+}
+
+.dashboard-subtext {
+  @apply text-sm text-gray-500;
+}
+
+/* Stats card container */
+.dashboard-cards {
+  @apply grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6;
+}
+
+/* Individual Stat Card */
+.dashboard-card {
+  @apply bg-white rounded-lg shadow-md p-6 transition hover:shadow-xl;
+}
+
+.dashboard-card-title {
+  @apply text-sm font-medium text-gray-500;
+}
+
+.dashboard-card-value {
+  @apply text-2xl font-bold text-indigo-600 mt-1;
+}

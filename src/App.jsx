@@ -16,6 +16,11 @@ import Budgets from "./pages/Budgets";
 import Reports from "./pages/Reports";
 import Settings from "./pages/Settings";
 
+import './components/Logo.css';
+import './index.css'; // Tailwind core
+import './styles/global.css'; // base styles
+
+
 function App() {
   return (
     <Routes>

@@ -6,6 +6,7 @@ import './index.css'
 import { Toaster } from "react-hot-toast";
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import './index.css'; // Make sure this line exists
+import './styles/global.css'; // base styles
 
 
 
